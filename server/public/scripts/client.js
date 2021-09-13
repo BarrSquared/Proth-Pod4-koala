@@ -27,7 +27,7 @@ function readyToTransfer() {
 function setupClickListeners() {
   $( '#viewKoalas').on('click', '.deleteButton', deleteKoala); // added delete click handler
   $( '#viewKoalas').on('click', '.readyToTransfer', readyToTransfer); // added delete click handler
-  $( '#addButton' ).on( 'click', function(){
+  $( '#addButton' ).on( 'click');
     console.log( 'in addButton on click' );
     // get user input and put in an object
     // NOT WORKING YET :(
